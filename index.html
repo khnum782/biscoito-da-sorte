@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Biscoito da sorte</title>
+      <link rel="stylesheet" href="./style.css">
+    </head>
+    
+    <body>
+        <main>
+            <div class="screen1"> 
+             <h1>Qual é a sua sorte de hoje?</h1>
+             <p>Abra o Biscoito e descubra!</p>
+             <img  id="closedCookie" src="./assets/cookie-fechado.png" alt="um biscoito da sorte">
+            </div> 
+
+            <div class="screen2 hide">
+             <h1>Aqui está a sua sorte de hoje:</h1>
+             <p id="randomPhrase">sorte da pessoa</p>
+             <img id="openedCookie" src="./assets/cookie-fechado.png" alt="um biscoito aberto">
+            <form >
+             <button id="btnTry">Abrir outro biscoito</button>
+            </form>
+            </div>
+
+        </main>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
